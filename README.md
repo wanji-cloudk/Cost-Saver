@@ -1,5 +1,5 @@
 ## Cost-Saver-Terraform + boto3 project
-Toolkit designed to monitor and prevent unnecessary bills,Infrastructure as Code (Terraform): Uses main.tf to deploy budget-friendly resources (like t3.nano instances) with mandatory tagging. This ensures that every resource created has a "purpose" and an "owner", python/Boto3: auto-stop.py script scans your AWS environment to automatically shutdown instances missing a "Project" tag and Stop instances tagged for scheduled shutdown to save money and ensure you only pay for what you actually use.
+A toolkit designed to monitor and prevent unnecessary expenses.Infrastructure as Code (Terraform): Uses main.tf to provision cost-optimized AWS environments(like t3.nano instances) with mandatory tagging. This ensures that every resource created has a "purpose" and an "owner",and automatically deploys Python-based governance scripts to scan your AWS environment and eliminate waste by automatically shutdowning instances missing a "Project" tag and Stop instances tagged for scheduled shutdown to save money and ensure you only pay for what you actually use.
 
 ## Make sure you sign up at aws.amazon.com
 configure AWS:
