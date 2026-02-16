@@ -29,7 +29,7 @@ pip install python-terraform
 Note: This still requires the actual Terraform binary from requirements.txt to be installed on your system first.
 
 ## Enviroment setup
-Set your default AWS region to avoid
+Set your default AWS region 
 ```bash
 export AWS_DEFAULT_REGION=us-east-1 
 
