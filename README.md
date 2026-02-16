@@ -47,7 +47,7 @@ python auto-stop.py
 
 ##  Destroy when done
 ```bash
-terraform destory
+terraform destroy
 
 #### Run Locally
 clone the project
